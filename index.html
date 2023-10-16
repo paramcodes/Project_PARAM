@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="cpu.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins&display=swap" rel="stylesheet">
+    <!-- <script src="script.js"></script> -->
 </head>
+
 <body>
     <header>
-      <h1>Welcome to the Site</h1>
-      <nav>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#connect">Connect</a></li>
-        </ul>
-      </nav>  
+        <div class="image">
+            <img src="programming.png" id="logo" width="50" alt="logo">
+        </div>
+        <h1>{paramcodes}</h1>
+        <nav>
+            <ul class="headline">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <!-- <div class="bg">
+        <video src="bg.mp4" autoplay muted loop id="bgv"></video>
+    </div> -->
+    <main class="content">
         <div>
             <h2 id="Home">Home</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tenetur tempora assumenda totam corporis eaque, inventore optio at odit porro! Impedit provident at laborum recusandae magnam? Voluptate illo inventore nisi.</p>
+            <p>Hello Everyone!</p>
+            <img src="web-development.png" id="web" alt="web-development">
         </div>
         <div>
             <h2 id="About">About</h2>
-            <p>Student</p>
+            <p>I am a Coder</p>
+            <p align="center">
+                <a href="https://github.com/param-code">
+                <img alt="Website" width ="500" src="https://streak-stats.demolab.com/?user=param-code"/>
+                </a>
+              </p>
         </div>
         <div>
             <h2 id="Projects">Projects</h2>
@@ -51,6 +69,7 @@
         </div>
         <!-- <audio src="love.mp3" autoplay></audio> -->
     </main>
-    <footer>No one is HARMED in the development of this Project</footer>
+    <footer class="content">No one is HARMED in the development of this Project</footer>
 </body>
+
 </html>
