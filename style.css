@@ -56,3 +56,28 @@ a:visited{
 a:active{
     color: orangered;
 }
+.BookM{
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.record{
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid orange;
+    border-radius: 15%;
+    background-color: rgba(172, 255, 47, 0.585);
+}
+.Book{
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid orange;
+    border-radius: 15%;
+    background-color: rgba(251, 0, 255, 0.557);
+}
+.offline{
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid orange;
+    border-radius: 15%;
+    background-color: rgba(0, 153, 255, 0.557);
+}
