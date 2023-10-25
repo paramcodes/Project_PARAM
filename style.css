@@ -57,6 +57,11 @@ a:visited{
 a:active{
     color: orangered;
 }
+a:hover{
+    font-style: oblique;
+    color: black;
+    font-size: x-large;
+}
 .BookM{
     color: orangered;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
