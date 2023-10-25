@@ -99,5 +99,11 @@ a:active{
 .headline{
     display: flex;
     list-style: none;
-    margin-left: 500px;
+    position:fixed;
+    border: 2px solid hotpink;
+    background-color: wheat;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
 }
