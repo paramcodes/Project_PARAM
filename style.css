@@ -129,3 +129,11 @@ a{
     list-style: none;
     display: flexbox;
 }
+#tech{
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 30%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
